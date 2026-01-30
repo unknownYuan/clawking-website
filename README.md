@@ -8,7 +8,7 @@
 ## 部署步骤
 
 ```bash
-cd /Users/guohaodong/.openclaw/workspace/meme-deploy
+cd /path/to/your-clawking-project
 
 # 1. 安装依赖
 npm install

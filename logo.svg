@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- 背景 -->
+  <rect width="200" height="200" fill="#FF6B35"/>
+  
+  <!-- 龙虾身体 -->
+  <ellipse cx="100" cy="130" rx="50" ry="40" fill="#FF8C42"/>
+  
+  <!-- 尾巴 -->
+  <path d="M60 160 Q40 190 50 200 L80 180 Z" fill="#FF6B35"/>
+  <path d="M140 160 Q160 190 150 200 L120 180 Z" fill="#FF6B35"/>
+  
+  <!-- 头部 -->
+  <circle cx="100" cy="80" r="35" fill="#FF8C42"/>
+  
+  <!-- 眼睛 -->
+  <circle cx="85" cy="75" r="8" fill="white"/>
+  <circle cx="115" cy="75" r="8" fill="white"/>
+  <circle cx="85" cy="75" r="4" fill="black"/>
+  <circle cx="115" cy="75" r="4" fill="black"/>
+  
+  <!-- 嘴巴微笑 -->
+  <path d="M90 95 Q100 105 110 95" stroke="black" stroke-width="2" fill="none"/>
+  
+  <!-- 左钳子 -->
+  <ellipse cx="45" cy="90" rx="25" ry="20" fill="#FF6B35"/>
+  <ellipse cx="30" cy="75" rx="15" ry="10" fill="#FF8C42"/>
+  <ellipse cx="25" cy="85" rx="12" ry="8" fill="#FF6B35"/>
+  
+  <!-- 右钳子 -->
+  <ellipse cx="155" cy="90" rx="25" ry="20" fill="#FF6B35"/>
+  <ellipse cx="170" cy="75" rx="15" ry="10" fill="#FF8C42"/>
+  <ellipse cx="175" cy="85" rx="12" ry="8" fill="#FF6B35"/>
+  
+  <!-- 皇冠 -->
+  <polygon points="70,50 85,30 100,50 115,30 130,50 130,70 70,70" fill="#FFD700"/>
+  <circle cx="85" cy="30" r="5" fill="#FF4444"/>
+  <circle cx="115" cy="30" r="5" fill="#4444FF"/>
+  <circle cx="100" cy="50" r="4" fill="#44FF44"/>
+  
+  <!-- 皇冠底部 -->
+  <rect x="70" y="65" width="60" height="8" fill="#FFA500"/>
+  
+  <!-- 文字 KING -->
+  <text x="100" y="185" text-anchor="middle" font-family="Arial Black" font-size="24" fill="white" font-weight="bold">KING</text>
+</svg>

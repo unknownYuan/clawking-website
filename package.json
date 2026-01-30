@@ -1,0 +1,21 @@
+{
+  "name": "clawking-deployment",
+  "version": "1.0.0",
+  "description": "Deploy ClawKing meme token on BSC",
+  "scripts": {
+    "deploy": "npx hardhat run scripts/deploy.js --network bsc",
+    "compile": "npx hardhat compile"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "hardhat": "^2.14.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.0"
+  },
+  "main": "hardhat.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
